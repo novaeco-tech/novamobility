@@ -39,7 +39,7 @@ graph TD
     end
 
     subgraph "The Intelligence Layer"
-        API -->|Solve VRP| Mind[NovaMind (Optimization)]
+        API -->|Solve VRP| Mind["NovaMind (Optimization)"]
         Mind -->|Route Manifest| API
     end
 
